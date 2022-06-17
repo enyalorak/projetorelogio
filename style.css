@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #90EE90;
+}
+
+.relogio{
+    height: 100vh; /* a div fica 100% do tamanho da tela*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display{
+    background-color:#6B8E23 ;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px; /* usar a altura 
+    da linha igual a da altura p alinhar o 
+    conteudo no centro */
+    border-radius: 15px;
+    color: #FFC0CB;
+    font-size: 7rem;/*1rem = 16px*/
+    font-family: 'Qahiri', sans-serif;
+    border: 10px solid #ADFF2F;
+}
+
+footer{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #8B4513;
+    font-family: 'Barlow Condensed', sans-serif;
+}
